@@ -1,0 +1,29 @@
+# Build artefacts
+OselVPN.exe
+OselVPN.lib
+OselVPN.obj
+xray_payload.o
+xray_payload.bin
+test_parse
+test_parse.exe
+test_parse.o
+
+# Xray core (download separately from Xray-core releases)
+xray.exe
+xray-win64.zip
+xray-win64.zip.*
+geoip.dat
+geosite.dat
+wintun.dll
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Zig cache
+zig-cache/
+zig-out/
